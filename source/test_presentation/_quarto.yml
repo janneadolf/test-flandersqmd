@@ -1,5 +1,43 @@
 project:
-  title: "test_presentation"
+  type: default
+  preview:
+    port: 4201
+    browser: true
+  render:
+    - "*.md"
+    - "*.qmd"
+    - "!LICENSE.md" #ignore LICENSE.md
+    - "!README.md" #ignore README.md
+  output-dir:  ../../output/test_presentation
 
+execute:
+  echo: false
+
+lang: en-GB
+
+format:
+  flandersqmd-revealjs:
+    transition-speed: fast
+    link-external-icon: true
+    link-external-newwindow: true
+
+flandersqmd:
+  entity: INBO
+  level: 2
+  title: Title testpresentation
+  subtitle: Subtitle testpresentation
+  author:
+    - name:
+        given: Janne
+        family: Adolf
+      email: janne.adolf@inbo.be
+      corresponding: true
+      orcid: 0000-0001-6064-9803
+      affiliation:
+        - Research Institute for Nature and Forest (INBO)
+  date: 2025-04-25
+  cover: ../../media/pexels-iriser-1086584.jpg
+# Photo by Irina Iriser:
+# https://www.pexels.com/photo/three-multicolored-jellyfishes-1086584/
 
 

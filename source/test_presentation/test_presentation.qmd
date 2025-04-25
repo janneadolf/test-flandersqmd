@@ -1,11 +1,24 @@
----
-title: "test_presentation"
----
+## Diagrams
 
-## Quarto
+- Trying out embedding for mermaid diagrams <br>(see quarto documentation [here](https://quarto.org/docs/authoring/diagrams.html) or blog post [here](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/)). 
+- The fig-width parameter doesn't seem to control much (see issue [here](https://github.com/quarto-dev/quarto-cli/issues/3973)).
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
-```{r}
-1 + 1
+```{mermaid}
+%%| fig-width: 10
+%%| fig-cap: A mermaid flowchart.
+flowchart LR
+    A[A] --> B(B)
+    B --> C{C}
+    C -->|Yes| D[D]
+    C -->|No| E[E]
 ```
+
+
+## Image (svg)
+
+- Including an image based on an .svg file.
+
+![An image (svg)](../../media/drawing.svg){height=300}
+
+## Next slide
