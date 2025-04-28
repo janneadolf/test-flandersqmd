@@ -70,9 +70,11 @@ book:
   date: "28/4/2025"
   chapters:
     - index.md
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - chapters/10_intro.qmd
+    - chapters/20_summary.qmd
+    - chapters/99_references.qmd
+  appendices:
+    - appendices/appendix_a.qmd
 
 bibliography: references.bib
 
