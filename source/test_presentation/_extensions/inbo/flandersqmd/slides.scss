@@ -121,7 +121,7 @@ $font-family-monospace: inconsolata, SFMono-Regular, Menlo, Monaco, Consolas, Li
 
 .title-logo-img {
   text-align: center;
-  margin: 0px !important;
+  margin: 2px !important;
   max-width: 100% !important;
 }
 
@@ -167,6 +167,13 @@ $font-family-monospace: inconsolata, SFMono-Regular, Menlo, Monaco, Consolas, Li
   bottom: -5%;
   width: 200px;
   z-index: -1;
+}
+
+.photographer {
+  font-size: 0.5em;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
 }
 
 .sidebar {

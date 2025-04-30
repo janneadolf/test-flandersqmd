@@ -30,10 +30,6 @@
   color: var(--flandersqmd-sidebar-tussen-colour);
 }
 
-.title-logo {
-  background-color: var(--flandersqmd-title-border);
-}
-
 .title-entity {
   color: var(--flandersqmd-title-border);
 }
@@ -104,4 +100,8 @@ figcaption {
 
 .reveal div.callout.callout-important.callout-style-default .callout-title{
   background-color: var(--flandersqmd-callout-important-bg);
+}
+
+.photographer {
+  color: var(--flandersqmd-title-colour);
 }
