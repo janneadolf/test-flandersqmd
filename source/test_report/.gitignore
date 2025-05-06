@@ -6,4 +6,5 @@
 *.sty
 *.tex
 !_extensions/*
+!media/*
 site_libs

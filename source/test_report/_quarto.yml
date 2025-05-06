@@ -41,15 +41,32 @@ flandersqmd:
     orcid: 0000-0000-0000-0000
     affiliation:
        - Research Institute for Nature and Forest (INBO)
+  year: 2025
+  cover: media/cover.pdf
+  coverphoto: https://www.pexels.com/nl-nl/foto/hout-natuur-rood-creatief-4599227
+  coverdescription: Detail of a leaf. Photo by Skyler Ewing via Pexels
   public_report: false
   colophon: true
-  year: 2025
+  client:
+    - INBO Brussel
+    - VAC Brussel ‐ Herman Teirlinck
+    - Havenlaan 88 bus 73
+    - 1000 Brussel
+  clienturl: https://www.vlaanderen.be/inbo/en-gb
+  clientlogo: media/logo.jpg
+  cooperation:
+    - INBO Brussel
+    - VAC Brussel ‐ Herman Teirlinck
+    - Havenlaan 88 bus 73
+    - 1000 Brussel
+  cooperationurl: https://www.vlaanderen.be/inbo/en-gb
+  cooperationlogo: media/logo.jpg
 
 book:
   downloads: pdf
   open-graph: true
   sidebar:
-    logo: cover.png
+    logo: media/cover.png
   body-footer: '{{< footer >}}'
   navbar:
     left:
