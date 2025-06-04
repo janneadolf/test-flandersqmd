@@ -1,0 +1,17 @@
+{{< colophon >}}
+
+# Preface {.unnumbered}
+
+This is a Quarto book.
+
+
+```{r setup}
+
+print("Include R setup chunk in index qmd.")
+
+data_path = "../../data/"
+testdata <- get(load(data_path |> paste0(x = _, "mtcars.Rda")))
+head(testdata)
+# works, but data only available within this child document 
+
+```

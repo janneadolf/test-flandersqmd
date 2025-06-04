@@ -14,6 +14,7 @@ project:
 execute:
   echo: false
 
+
 lang: en-GB
 
 format:
@@ -72,7 +73,7 @@ book:
   navbar:
     left:
       - text: Cover
-        file: index.md
+        file: index.qmd
     right:
       - icon: mastodon
         href: https://mastodon.online/@inbo
@@ -87,7 +88,7 @@ book:
     pinned: true
   date: "28/4/2025"
   chapters:
-    - index.md
+    - index.qmd
     - chapters/10_intro.qmd
     - chapters/20_summary.qmd
     - chapters/30_body.qmd
