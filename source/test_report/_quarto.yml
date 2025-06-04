@@ -90,6 +90,7 @@ book:
     - index.md
     - chapters/10_intro.qmd
     - chapters/20_summary.qmd
+    - chapters/30_body.qmd
     - chapters/99_references.qmd
   appendices:
     - appendices/appendix_a.qmd
