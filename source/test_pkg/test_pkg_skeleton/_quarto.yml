@@ -8,7 +8,7 @@ project:
   - '*.qmd'
   - '!LICENSE.md'
   - '!README.md'
-  output-dir: output
+  output-dir: ../../../output/test_pkg
   post-render: _extensions/inbo/flandersqmd-book/filters/post_render.R
 execute:
   echo: false
