@@ -9,6 +9,7 @@ project:
     - "!LICENSE.md" #ignore LICENSE.md
     - "!README.md" #ignore README.md
   output-dir:  ../../output/test_report
+  execute-dir: project
 
 execute:
   echo: false
