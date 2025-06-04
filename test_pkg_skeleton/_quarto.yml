@@ -1,0 +1,79 @@
+project:
+  type: book
+  preview:
+    port: 4201
+    browser: true
+  render:
+  - '*.md'
+  - '*.qmd'
+  - '!LICENSE.md'
+  - '!README.md'
+  output-dir: output
+  post-render: _extensions/inbo/flandersqmd-book/filters/post_render.R
+execute:
+  echo: false
+  warnings: true
+  errors: true
+  message: true
+  freeze: false
+  cache: false
+format:
+  flandersqmd-book-html: default
+  flandersqmd-book-pdf: default
+lang: en-GB
+flandersqmd:
+  entity: INBO
+  level: 2
+  title: Test title
+  shorttitle: short-title-filename
+  author:
+  - name:
+      given: Janne
+      family: Adolf
+    email: janne.adolf@inbo.be
+    orcid: 0000-0001-6064-9803
+    affiliation: Research Institute for Nature and Forest (INBO)
+    corresponding: true
+  - name:
+      given: John
+      family: Doe
+    email: john.doe@mail
+    orcid: 0000-0001-6064-9803
+    affiliation: Research Institute for Nature and Forest (INBO)
+  reviewer:
+  - name:
+      given: Jane
+      family: Doe
+    email: jane.doe@mail
+    orcid: 0000-0001-6064-9803
+    affiliation: Research Institute for Nature and Forest (INBO)
+  public_report: true
+  colophon: true
+  floatbarrier: section
+book:
+  downloads: pdf
+  open-graph: true
+  body-footer: '{{< footer >}}'
+  navbar:
+    pinned: true
+    right:
+    - icon: mastodon
+      href: https://mastodon.online/&#64;inbo
+    - icon: bluesky
+      href: https://bsky.app/profile/inbo.be
+    - icon: facebook
+      href: https://www.facebook.com/INBOVlaanderen/
+    left:
+    - text: Cover
+      file: index.md
+    - text: Recommendations
+      file: recommendations.md
+    - text: Introduction
+      file: introduction.md
+  chapters:
+  - index.md
+  - samenvatting.md
+  - recommendations.md
+  - introduction.md
+  - bibliography.md
+bibliography: references.bib
