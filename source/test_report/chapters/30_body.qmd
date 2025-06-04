@@ -87,3 +87,84 @@ Some text here some text here
 Some text here some text here 
 Some text here some text here 
 
+
+## Try tables
+
+
+### Conditional table formatting.
+
+
+```{r table prep html}
+#| eval: !expr knitr::is_html_output()
+
+# this is possible (chunk level)
+.format = "html"
+.bootstrap_options = c("condensed", "hover")
+.col_width = "170px" 
+
+```
+
+
+```{r table html}
+
+data_path = "../../data/"
+testdata <- get(load(data_path |> paste0(x = _, "mtcars.Rda")))
+
+
+# or within chunks
+
+.format = if (knitr::is_html_output()) {
+  "html"
+} else {
+    "latex"
+  }
+.bootstrap_options = if (knitr::is_html_output()) {
+  c("condensed", "hover")
+} else {
+    "basic"
+  }
+.col_width = if (knitr::is_html_output()) {
+  "170px"
+  } else {
+    "70pt"
+  }
+.booktabs = if (knitr::is_html_output()) {
+  FALSE
+} else {
+  TRUE
+}
+.longtable = if (knitr::is_html_output()) {
+  FALSE
+} else {
+  TRUE
+}
+.font_size = 10
+
+knitr::kable(
+  x = testdata,
+  format = .format,
+  escape = FALSE,
+  booktabs = .booktabs,
+  longtable = .longtable,
+  table.attr = 'data-quarto-disable-processing="true"' # if quarto HERE
+) |>
+  kableExtra::kable_styling(
+    bootstrap_options = .bootstrap_options, 
+    latex_options = "basic",
+    full_width = FALSE,
+    position = "left",
+    font_size = .font_size
+  ) |> 
+  kableExtra::column_spec(
+    column = 2:ncol(testdata),
+    width = .col_width
+  ) |>
+  kableExtra::collapse_rows(
+    columns = seq_along(colnames(testdata)),
+    valign = "middle"
+  ) 
+
+```
+
+
+
