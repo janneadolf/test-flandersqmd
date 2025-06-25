@@ -1,5 +1,5 @@
 # install dev version
-pak::pkg_install("inbo/flandersqmd@draft")
+pak::pkg_install("inbo/flandersqmd")
 
 # install stable version
 install.packages(
