@@ -49,7 +49,7 @@ Some text here some text here
 |   are preserved
 
 Some text here some text here 
-Some text here some text here 
+ 
 
 :::
 
@@ -86,6 +86,7 @@ Some text here some text here
 
 Some text here some text here 
 Some text here some text here 
+[Some text here some text here]{colword, options="green"}
 
 
 ## Try tables
@@ -106,6 +107,7 @@ Some text here some text here
 
 
 ```{r table html}
+
 
 data_path = "../../data/"
 testdata <- get(load(data_path |> paste0(x = _, "mtcars.Rda")))
