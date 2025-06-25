@@ -9,7 +9,7 @@ install.packages(
 path <- "source/test_pkg_workshop"
 shortname <- "test_package_skeleton"
 # to create a report skeleton
-flandersqmd::create_report(path = path, shortname = shortname, version = "gha")
+flandersqmd::create_report(path = path, shortname = shortname)
 # to run when you have the report numbers
 flandersqmd::insert_missing_metadata(file.path(path, shortname))
 # to run when you have the cover page
