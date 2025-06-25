@@ -6,7 +6,7 @@ install.packages(
   "flandersqmd",
   repos = c("https://inbo.r-universe.dev", "https://cloud.r-project.org"))
 
-path <- "source/test_pkg_workshop"
+path <- "source/test_pkg_v001"
 shortname <- "test_package_skeleton"
 # to create a report skeleton
 flandersqmd::create_report(path = path, shortname = shortname)
