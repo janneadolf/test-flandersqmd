@@ -466,14 +466,10 @@
     "flandersqmd": {
       "Package": "flandersqmd",
       "Version": "0.0.1",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "flandersqmd",
-      "RemoteUsername": "inbo",
-      "RemotePkgRef": "inbo/flandersqmd@draft",
-      "RemoteRef": "draft",
-      "RemoteSha": "3751d12cca6437eb39d34c5ca6f33f950763ef8c",
+      "Source": "Repository",
+      "Repository": "https://inbo.r-universe.dev",
+      "RemoteUrl": "https://github.com/inbo/flandersqmd",
+      "RemoteSha": "a35b9ffbeb56a94a68bcadd511147e20dc342db8",
       "Requirements": [
         "R",
         "assertthat",
@@ -484,7 +480,7 @@
         "quarto",
         "yaml"
       ],
-      "Hash": "b37ee56529825fa5bff193f0c7fc57c8"
+      "Hash": "e5a4b8c8c39b39cc7913d929a6ff7f66"
     },
     "fontawesome": {
       "Package": "fontawesome",
