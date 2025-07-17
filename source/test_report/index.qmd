@@ -1,6 +1,10 @@
+---
+toc: false
+---
+
 {{< colophon >}}
 
-# Preface {.unnumbered}
+# Preface {-}
 
 This is a Quarto book.
 
