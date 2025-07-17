@@ -8,7 +8,7 @@ project:
   - '*.qmd'
   - '!LICENSE.md'
   - '!README.md'
-  output-dir: output
+  output-dir: ../../../output/test_pkg_v001
   post-render: _extensions/inbo/flandersqmd-book/filters/post_render.R
 execute:
   echo: false
@@ -24,8 +24,8 @@ lang: en-GB
 flandersqmd:
   entity: INBO
   level: 1
-  title: Testtitle
-  shorttitle: testreport
+  title: Test report title
+  shorttitle: test-report
   author:
   - name:
       given: Janne
