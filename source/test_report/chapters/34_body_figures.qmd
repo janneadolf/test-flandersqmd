@@ -1,0 +1,52 @@
+## Figures
+
+### Figure from R code with caption
+
+```{r fig-1}
+#| label: "fig-1"
+#| fig-cap: "Caption figure 1"
+#| fig-width: 4
+#| fig-height: 4
+#| fig-pos: H
+
+plot(x = testdata$mpg, y = testdata$cyl)
+
+```
+
+
+### Multiple figures
+
+@fig-3 consists of 2 subplots.
+
+```{r fig-3}
+#| label: "fig-3"
+#| fig-cap: "Caption figure"
+#| fig-subcap: 
+#|  - "first subcaption"
+#|  - "second subcaption"
+#| fig-pos: H
+#| layout-ncol: 2
+
+plot(x = testdata$mpg, y = testdata$cyl)
+plot(x = testdata$mpg, y = testdata$hp)
+
+```
+
+@fig-4-5 consists op 2 plots, but referencing is broken as there's only one label.
+
+```{r fig-4}
+#| label: "fig-4-5"
+#| fig-cap: 
+#| - "Caption first figure"
+#| - "Caption second figure"
+#| fig-pos: H
+#| layout-ncol: 2
+
+plot(x = testdata$mpg, y = testdata$cyl)
+plot(x = testdata$mpg, y = testdata$hp)
+
+```
+
+
+
+

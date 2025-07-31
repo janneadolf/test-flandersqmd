@@ -1,0 +1,68 @@
+## Callout notes, block quotes, line blocks
+
+::: {.callout-note icon=false}
+
+### A callout note with custom headline
+
+Some text here some text here 
+Some text here some text here 
+Some text here some text here 
+Some text here some text here 
+Some text here some text here 
+
+
+:::
+
+> Blockquote Blockquote Blockquote Blockquote 
+Blockquote Blockquote Blockquote Blockquote 
+Blockquote Blockquote Blockquote 
+
+Some text
+
+
+| Line Block
+|   Spaces and newlines
+|   are preserved
+
+Some text
+
+::: {.callout-note icon=false}
+
+### A callout note with custom headline and blockquote
+
+Some text here some text here 
+Some text here some text here
+
+> Blockquote Blockquote Blockquote Blockquote 
+Blockquote Blockquote Blockquote Blockquote 
+Blockquote Blockquote Blockquote 
+
+Some text here some text here
+
+| Line Block
+|   Spaces and newlines
+|
+|   are preserved
+
+Some text here some text here 
+ 
+
+:::
+
+
+::: {.callout-note icon=false}
+
+### Another callout note with custom headline and blockquote
+
+Some text here some text here 
+Some text here some text here
+
+> Blockquote Blockquote Blockquote Blockquote 
+Blockquote Blockquote Blockquote Blockquote 
+Blockquote Blockquote Blockquote
+
+|
+|   Some text here some text here Some text here some text here Some text here some text here Some text here some text here Some text here some text here 
+Some text here some text here Some text here some text here Some text here some text here Some text here some text here 
+
+:::

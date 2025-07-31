@@ -1,0 +1,14 @@
+# Headings
+
+### Headline level 3
+
+Some text here some text here 
+Some text here some text here 
+
+#### Headline level 4
+
+Some text here some text here 
+Some text here some text here 
+[Some text here some text here]{colword, options="green"}
+
+
