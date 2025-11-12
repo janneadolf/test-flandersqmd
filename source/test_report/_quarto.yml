@@ -9,7 +9,7 @@ project:
     - "!LICENSE.md"
     - "!README.md"
   output-dir:  ../../output/test_report
-  #execute-dir: project
+  execute-dir: project
   post-render: _extensions/inbo/flandersqmd-book/filters/post_render.R
 
 execute:
@@ -32,6 +32,7 @@ flandersqmd:
   level: 1
   title: Title report
   subtitle: Subtitle report
+  shorttitle: report-test
   author:
   - name:
       given: Janne
