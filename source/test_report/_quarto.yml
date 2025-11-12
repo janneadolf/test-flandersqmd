@@ -9,8 +9,8 @@ project:
     - "!LICENSE.md"
     - "!README.md"
   output-dir:  ../../output/test_report
-  execute-dir: project
-  #post-render: _extensions/inbo/flandersqmd-book/filters/post_render.R
+  #execute-dir: project
+  post-render: _extensions/inbo/flandersqmd-book/filters/post_render.R
 
 execute:
   echo: false

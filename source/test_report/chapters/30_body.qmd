@@ -6,8 +6,13 @@ toc: false
 ```{r body-setup}
 #| message: false
 
-data_path = "../../data/"
-testdata <- get(load(data_path |> paste0(x = _, "mtcars.Rda")))
+
+data_path_project = "../../data/"
+data_path = "../../../data/"
+testdata <- try(get(load(data_path_project |> paste0(x = _, "mtcars.Rda"))))
+if (inherits(testdata, "try-error")) {
+  testdata <- get(load(data_path |> paste0(x = _, "mtcars.Rda")))
+}
 
 
 ```

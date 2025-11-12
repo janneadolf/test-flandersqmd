@@ -1,12 +1,8 @@
----
-toc: false
----
-
 {{< colophon >}}
 
 # Preface {-}
 
-This is a Quarto book.
+[Content section?]
 
 
 ```{r setup}
