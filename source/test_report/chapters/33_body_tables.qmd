@@ -45,7 +45,7 @@
 }
 .font_size = 10
 
-knitr::kable(
+table_1 <- knitr::kable(
   x = testdata,
   format = .format,
   escape = FALSE,
@@ -69,7 +69,23 @@ knitr::kable(
     valign = "middle"
   ) 
 
+table_1
+
 ```
 
+```{r table-scrollbox}
 
+table_1 |> 
+    (\(x)
+     if (knitr::is_html_output()){
+       x |>
+         kableExtra::scroll_box(
+           height = "200px",
+           extra_css = "scrollbar-color: red red;"
+         )
+     } else {
+       x
+     }
+    )()
 
+```
