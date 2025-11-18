@@ -1,0 +1,5 @@
+output/
+renv/
+source/
+.Rhistory
+.Rproj.user
