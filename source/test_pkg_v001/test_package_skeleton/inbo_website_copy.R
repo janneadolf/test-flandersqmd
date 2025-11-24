@@ -60,7 +60,7 @@ inbo_website_quarto <- function(path) {
   ) |>
     path_rel(output_dir) -> files
 
-  setwd(output_dir)
+  # setwd(output_dir)
   path(output_dir, tolower(yml$config$flandersqmd$shorttitle), ext = "zip") |>
     zip(files = files, flags = "-r9XqT")
   # remove output except zip archive
