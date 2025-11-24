@@ -2,10 +2,10 @@
 .Rhistory
 .RData
 .Ruserdata
-output
-!/output/
-!/output/test_pkg_v001_zip/
-!/output/test_pkg_v001_zip/**
+output/test_pkg
+output/test_pkg_v001
+output/test_presentation
+output/test_report
 /.quarto/
 /_site/
 
