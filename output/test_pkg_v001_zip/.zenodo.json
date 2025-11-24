@@ -1,0 +1,34 @@
+{
+  "description": "",
+  "title": "Test report title.",
+  "shorttitle": "test-report",
+  "upload_type": "publication",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "eng",
+  "keywords": [
+    "invasive alien species; monitoring schemes; expert survey"
+  ],
+  "publication_type": "publication-report",
+  "publisher": "Research Institute for Nature and Forest (INBO)",
+  "contributors": [
+    {
+      "name": "Adolf, Janne",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0001-6064-9803",
+      "type": "contactperson"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Adolf, Janne",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "orcid": "0000-0001-6064-9803"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "inbo"
+    }
+  ]
+}

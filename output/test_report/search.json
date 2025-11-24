@@ -1,0 +1,102 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Title report",
+    "section": "",
+    "text": "Subtitle reportWritten byJanne Adolf , Research Institute for Nature and Forest (INBO)Reviewed byJohn Doe , Research Institute for Nature and Forest (INBO)Published during2025Responsible publisherHilde EggermontThe Research Institute for Nature and Forest (INBO) is an independent research institute of the Flemish government. Through applied scientific research, open data and knowledge, integration and disclosure, it underpins and evaluates biodiversity policy and management.LocationINBO Brussels, Herman Teirlinckgebouw, Havenlaan 88 bus 73, 1000 Brussels vlaanderen.be/inboWay of quoting Adolf, J. (2025) Title report. Subtitle report. Internal reports of the Research Institute for Nature and Forest 2025!!! Missing flandersqmd.reportnr !!!Research Institute for Nature and Forest, BrusselsExport reference toBibTexRISCSL-JSON@TechReport{\n  author = {Adolf, Janne}\n  institution = {Research Institute for Nature and Forest},\n  address = {INBO Brussels, Herman Teirlinckgebouw, Havenlaan 88 bus 73, 1000 Brussels},\n  year = {2025},\n!!! Missing flandersqmd.reportnr !!!  type = {techreport}\n}\nTY  - RPRT\nAU  - Adolf, Janne\nPB  - Research Institute for Nature and Forest\nPP  - INBO Brussels, Herman Teirlinckgebouw, Havenlaan 88 bus 73, 1000 Brussels\nPY  - 2025\nER  -\n{\n  \"type\":\"report\",\n  \"author\":[\n    {\n      \"family\":\"Adolf\",\n      \"given\":\"Janne\"\n    }\n  ]\n  \"issued\":{\"date-parts\":[[2025]]},\n  \"publisher\":\" \"Research Institute for Nature and Forest\",\n  \"publisher-place\":\"INBO Brussels, Herman Teirlinckgebouw, Havenlaan 88 bus 73, 1000 Brussels\",\n}\nCover photoDetail of a leaf. Photo by Skyler Ewing via PexelsThis study was commissioned byINBO BrusselVAC Brussel ‐ Herman TeirlinckHavenlaan 88 bus 731000 BrusselThis study was conducted in collaboration withINBO BrusselVAC Brussel ‐ Herman TeirlinckHavenlaan 88 bus 731000 BrusselDRAFT \n\nPreface\n[Content section?]\n\n\n[1] \"Include R setup chunk in index qmd.\"\n\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\n\n\n\n\n\n\nKnuth D.E. (1984). Literate programming. Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\n\n\n  Adolf, J. (2025)  !!! Missing flandersqmd.reportnr !!!",
+    "crumbs": [
+      "Cover",
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "chapters/00_summary.html",
+    "href": "chapters/00_summary.html",
+    "title": "Summary",
+    "section": "",
+    "text": "DRAFT \n\n\n\n\n\n\n\n\n\n\n\n\nKnuth D.E. (1984). Literate programming. Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\n\n  Adolf, J. (2025)  !!! Missing flandersqmd.reportnr !!!",
+    "crumbs": [
+      "Cover",
+      "Summary"
+    ]
+  },
+  {
+    "objectID": "chapters/10_intro.html",
+    "href": "chapters/10_intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "DRAFT \n\n\n\nThis is a book created from markdown and executable code.\n\n\n[1] 2\n\n\n\n\n\n\nKnuth D.E. (1984). Literate programming. Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\n\n  Adolf, J. (2025)  !!! Missing flandersqmd.reportnr !!!",
+    "crumbs": [
+      "Cover",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/30_body.html",
+    "href": "chapters/30_body.html",
+    "title": "2  Body",
+    "section": "",
+    "text": "2.1 Callout notes, block quotes, line blocks\nSome text\nSome text\nSome text\nAdolf, J. (2025)  !!! Missing flandersqmd.reportnr !!!",
+    "crumbs": [
+      "Cover",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Body</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/30_body.html#callout-notes-block-quotes-line-blocks",
+    "href": "chapters/30_body.html#callout-notes-block-quotes-line-blocks",
+    "title": "2  Body",
+    "section": "",
+    "text": "A callout note with custom headline\n\n\n\nSome text here some text here Some text here some text here Some text here some text here Some text here some text here Some text here some text here\n\n\n\nBlockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote\n\n\nLine Block\n  Spaces and newlines\n  are preserved\n\n\n\n\n\n\n\nA callout note with custom headline and blockquote\n\n\n\nSome text here some text here Some text here some text here\n\nBlockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote\n\nSome text here some text here\nLine Block\n  Spaces and newlines\n\n  are preserved\nSome text here some text here\n\n\n\n\n\n\n\n\nAnother callout note with custom headline and blockquote\n\n\n\nSome text here some text here Some text here some text here\n\nBlockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote Blockquote\n\n\n  Some text here some text here Some text here some text here Some text here some text here Some text here some text here Some text here some text here\nSome text here some text here Some text here some text here Some text here some text here Some text here some text here",
+    "crumbs": [
+      "Cover",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Body</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/30_body.html#tables",
+    "href": "chapters/30_body.html#tables",
+    "title": "2  Body",
+    "section": "3.1 Tables",
+    "text": "3.1 Tables\n\n3.1.1 Conditional table formatting.\n\n\n\n \n  \n      \n    mpg \n    cyl \n    disp \n    hp \n    drat \n    wt \n    qsec \n    vs \n    am \n    gear \n    carb \n  \n \n\n  \n    Mazda RX4 \n    21.0 \n    6 \n    160.0 \n    110 \n    3.90 \n    2.620 \n    16.46 \n    0 \n    1 \n    4 \n    4 \n  \n  \n   \n   \n   \n   \n   \n    3.90 \n    2.875 \n   \n   \n   \n   \n    4 \n  \n  \n    Datsun 710 \n    22.8 \n    4 \n    108.0 \n    93 \n    3.85 \n    2.320 \n    18.61 \n   \n   \n    4 \n    1 \n  \n  \n    Hornet 4 Drive \n    21.4 \n    6 \n    258.0 \n    110 \n    3.08 \n    3.215 \n   \n    1 \n    0 \n   \n    1 \n  \n  \n    Hornet Sportabout \n    18.7 \n    8 \n    360.0 \n    175 \n    3.15 \n    3.440 \n    17.02 \n   \n   \n    3 \n    2 \n  \n  \n    Valiant \n    18.1 \n    6 \n    225.0 \n    105 \n    2.76 \n    3.460 \n    20.22 \n   \n   \n    3 \n    1 \n  \n  \n    Duster 360 \n    14.3 \n    8 \n    360.0 \n    245 \n    3.21 \n    3.570 \n    15.84 \n   \n   \n    3 \n    4 \n  \n  \n    Merc 240D \n    24.4 \n    4 \n    146.7 \n    62 \n    3.69 \n    3.190 \n    20.00 \n   \n    0 \n    4 \n    2 \n  \n  \n    Merc 230 \n   \n    4 \n    140.8 \n    95 \n    3.92 \n    3.150 \n   \n   \n   \n   \n    2 \n  \n  \n    Merc 280 \n    19.2 \n    6 \n    167.6 \n   \n    3.92 \n    3.440 \n   \n   \n   \n    4 \n    4 \n  \n  \n    Merc 280C \n   \n   \n   \n   \n   \n    3.440 \n   \n   \n   \n   \n    4 \n  \n  \n    Merc 450SE \n    16.4 \n    8 \n    275.8 \n    180 \n    3.07 \n    4.070 \n    17.40 \n   \n    0 \n    3 \n    3 \n  \n  \n    Merc 450SL \n   \n   \n   \n   \n    3.07 \n    3.730 \n   \n   \n   \n   \n    3 \n  \n  \n    Merc 450SLC \n   \n   \n   \n   \n    3.07 \n    3.780 \n   \n   \n   \n   \n    3 \n  \n  \n    Cadillac Fleetwood \n   \n    8 \n    472.0 \n    205 \n    2.93 \n    5.250 \n   \n   \n   \n    3 \n    4 \n  \n  \n   \n   \n    8 \n    460.0 \n    215 \n    3.00 \n    5.424 \n   \n   \n   \n   \n    4 \n  \n  \n    Chrysler Imperial \n   \n    8 \n    440.0 \n    230 \n    3.23 \n    5.345 \n   \n   \n   \n   \n    4 \n  \n  \n    Fiat 128 \n    32.4 \n    4 \n    78.7 \n    66 \n    4.08 \n    2.200 \n    19.47 \n    1 \n    1 \n    4 \n    1 \n  \n  \n    Honda Civic \n   \n    4 \n    75.7 \n    52 \n    4.93 \n    1.615 \n   \n   \n   \n    4 \n    2 \n  \n  \n    Toyota Corolla \n   \n    4 \n    71.1 \n    65 \n    4.22 \n    1.835 \n   \n   \n   \n    4 \n    1 \n  \n  \n    Toyota Corona \n   \n    4 \n    120.1 \n    97 \n    3.70 \n    2.465 \n   \n    1 \n    0 \n   \n    1 \n  \n  \n    Dodge Challenger \n    15.5 \n    8 \n    318.0 \n    150 \n    2.76 \n    3.520 \n    16.87 \n   \n   \n    3 \n    2 \n  \n  \n    AMC Javelin \n   \n    8 \n   \n    150 \n    3.15 \n    3.435 \n   \n   \n   \n   \n    2 \n  \n  \n    Camaro Z28 \n   \n    8 \n    350.0 \n    245 \n    3.73 \n    3.840 \n   \n   \n   \n    3 \n    4 \n  \n  \n    Pontiac Firebird \n   \n    8 \n    400.0 \n    175 \n    3.08 \n    3.845 \n   \n   \n   \n    3 \n    2 \n  \n  \n    Fiat X1-9 \n    27.3 \n    4 \n    79.0 \n    66 \n    4.08 \n    1.935 \n    18.90 \n    1 \n    1 \n    4 \n    1 \n  \n  \n    Porsche 914-2 \n   \n    4 \n    120.3 \n    91 \n    4.43 \n    2.140 \n    16.70 \n   \n    1 \n    5 \n    2 \n  \n  \n    Lotus Europa \n   \n    4 \n    95.1 \n    113 \n    3.77 \n    1.513 \n    16.90 \n   \n   \n   \n    2 \n  \n  \n    Ford Pantera L \n    15.8 \n    8 \n    351.0 \n    264 \n    4.22 \n    3.170 \n    14.50 \n   \n   \n    5 \n    4 \n  \n  \n    Ferrari Dino \n    19.7 \n    6 \n    145.0 \n    175 \n    3.62 \n    2.770 \n   \n   \n   \n    5 \n    6 \n  \n  \n    Maserati Bora \n    15.0 \n    8 \n    301.0 \n    335 \n    3.54 \n    3.570 \n   \n   \n   \n    5 \n    8 \n  \n  \n    Volvo 142E \n    21.4 \n    4 \n    121.0 \n    109 \n    4.11 \n    2.780 \n    18.60 \n   \n    1 \n    4 \n    2 \n  \n\n\n\n\n\n\n\n\n \n  \n      \n    mpg \n    cyl \n    disp \n    hp \n    drat \n    wt \n    qsec \n    vs \n    am \n    gear \n    carb \n  \n \n\n  \n    Mazda RX4 \n    21.0 \n    6 \n    160.0 \n    110 \n    3.90 \n    2.620 \n    16.46 \n    0 \n    1 \n    4 \n    4 \n  \n  \n   \n   \n   \n   \n   \n    3.90 \n    2.875 \n   \n   \n   \n   \n    4 \n  \n  \n    Datsun 710 \n    22.8 \n    4 \n    108.0 \n    93 \n    3.85 \n    2.320 \n    18.61 \n   \n   \n    4 \n    1 \n  \n  \n    Hornet 4 Drive \n    21.4 \n    6 \n    258.0 \n    110 \n    3.08 \n    3.215 \n   \n    1 \n    0 \n   \n    1 \n  \n  \n    Hornet Sportabout \n    18.7 \n    8 \n    360.0 \n    175 \n    3.15 \n    3.440 \n    17.02 \n   \n   \n    3 \n    2 \n  \n  \n    Valiant \n    18.1 \n    6 \n    225.0 \n    105 \n    2.76 \n    3.460 \n    20.22 \n   \n   \n    3 \n    1 \n  \n  \n    Duster 360 \n    14.3 \n    8 \n    360.0 \n    245 \n    3.21 \n    3.570 \n    15.84 \n   \n   \n    3 \n    4 \n  \n  \n    Merc 240D \n    24.4 \n    4 \n    146.7 \n    62 \n    3.69 \n    3.190 \n    20.00 \n   \n    0 \n    4 \n    2 \n  \n  \n    Merc 230 \n   \n    4 \n    140.8 \n    95 \n    3.92 \n    3.150 \n   \n   \n   \n   \n    2 \n  \n  \n    Merc 280 \n    19.2 \n    6 \n    167.6 \n   \n    3.92 \n    3.440 \n   \n   \n   \n    4 \n    4 \n  \n  \n    Merc 280C \n   \n   \n   \n   \n   \n    3.440 \n   \n   \n   \n   \n    4 \n  \n  \n    Merc 450SE \n    16.4 \n    8 \n    275.8 \n    180 \n    3.07 \n    4.070 \n    17.40 \n   \n    0 \n    3 \n    3 \n  \n  \n    Merc 450SL \n   \n   \n   \n   \n    3.07 \n    3.730 \n   \n   \n   \n   \n    3 \n  \n  \n    Merc 450SLC \n   \n   \n   \n   \n    3.07 \n    3.780 \n   \n   \n   \n   \n    3 \n  \n  \n    Cadillac Fleetwood \n   \n    8 \n    472.0 \n    205 \n    2.93 \n    5.250 \n   \n   \n   \n    3 \n    4 \n  \n  \n   \n   \n    8 \n    460.0 \n    215 \n    3.00 \n    5.424 \n   \n   \n   \n   \n    4 \n  \n  \n    Chrysler Imperial \n   \n    8 \n    440.0 \n    230 \n    3.23 \n    5.345 \n   \n   \n   \n   \n    4 \n  \n  \n    Fiat 128 \n    32.4 \n    4 \n    78.7 \n    66 \n    4.08 \n    2.200 \n    19.47 \n    1 \n    1 \n    4 \n    1 \n  \n  \n    Honda Civic \n   \n    4 \n    75.7 \n    52 \n    4.93 \n    1.615 \n   \n   \n   \n    4 \n    2 \n  \n  \n    Toyota Corolla \n   \n    4 \n    71.1 \n    65 \n    4.22 \n    1.835 \n   \n   \n   \n    4 \n    1 \n  \n  \n    Toyota Corona \n   \n    4 \n    120.1 \n    97 \n    3.70 \n    2.465 \n   \n    1 \n    0 \n   \n    1 \n  \n  \n    Dodge Challenger \n    15.5 \n    8 \n    318.0 \n    150 \n    2.76 \n    3.520 \n    16.87 \n   \n   \n    3 \n    2 \n  \n  \n    AMC Javelin \n   \n    8 \n   \n    150 \n    3.15 \n    3.435 \n   \n   \n   \n   \n    2 \n  \n  \n    Camaro Z28 \n   \n    8 \n    350.0 \n    245 \n    3.73 \n    3.840 \n   \n   \n   \n    3 \n    4 \n  \n  \n    Pontiac Firebird \n   \n    8 \n    400.0 \n    175 \n    3.08 \n    3.845 \n   \n   \n   \n    3 \n    2 \n  \n  \n    Fiat X1-9 \n    27.3 \n    4 \n    79.0 \n    66 \n    4.08 \n    1.935 \n    18.90 \n    1 \n    1 \n    4 \n    1 \n  \n  \n    Porsche 914-2 \n   \n    4 \n    120.3 \n    91 \n    4.43 \n    2.140 \n    16.70 \n   \n    1 \n    5 \n    2 \n  \n  \n    Lotus Europa \n   \n    4 \n    95.1 \n    113 \n    3.77 \n    1.513 \n    16.90 \n   \n   \n   \n    2 \n  \n  \n    Ford Pantera L \n    15.8 \n    8 \n    351.0 \n    264 \n    4.22 \n    3.170 \n    14.50 \n   \n   \n    5 \n    4 \n  \n  \n    Ferrari Dino \n    19.7 \n    6 \n    145.0 \n    175 \n    3.62 \n    2.770 \n   \n   \n   \n    5 \n    6 \n  \n  \n    Maserati Bora \n    15.0 \n    8 \n    301.0 \n    335 \n    3.54 \n    3.570 \n   \n   \n   \n    5 \n    8 \n  \n  \n    Volvo 142E \n    21.4 \n    4 \n    121.0 \n    109 \n    4.11 \n    2.780 \n    18.60 \n   \n    1 \n    4 \n    2",
+    "crumbs": [
+      "Cover",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Body</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/30_body.html#figures",
+    "href": "chapters/30_body.html#figures",
+    "title": "2  Body",
+    "section": "3.2 Figures",
+    "text": "3.2 Figures\n\n3.2.1 Figure from R code with caption\n\n\n\n\n\n\n\n\nFigure 3.1: Caption figure 1\n\n\n\n\n\n\n\n3.2.2 Multiple figures\nFigure 3.2 consists of 2 subplots.\n\n\n\n\n\n\n\n\n\n\n\n(a) first subcaption\n\n\n\n\n\n\n\n\n\n\n\n(b) second subcaption\n\n\n\n\n\n\n\nFigure 3.2: Caption figure\n\n\n\n?fig-4-5 consists op 2 plots, but referencing is broken as there’s only one label.\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 3.3: Caption first figure\n\n\n\n\n\n\n\n\n\n\n\nFigure 3.4: Caption second figure\n\n\n\n\n\n\n\n\n\n\nKnuth D.E. (1984). Literate programming. Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Cover",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Body</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/99_references.html",
+    "href": "chapters/99_references.html",
+    "title": "References",
+    "section": "",
+    "text": "DRAFT \n\n\n\n\n\nKnuth D.E. (1984). Literate programming. Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\n\n\n\n  Adolf, J. (2025)  !!! Missing flandersqmd.reportnr !!!",
+    "crumbs": [
+      "Cover",
+      "References"
+    ]
+  },
+  {
+    "objectID": "appendices/appendix_a.html",
+    "href": "appendices/appendix_a.html",
+    "title": "Appendix A — Title Appendix A",
+    "section": "",
+    "text": "DRAFT \n\n\n\nThis is appendix A.\n\n\n\n\nKnuth D.E. (1984). Literate programming. Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\n\n  Adolf, J. (2025)  !!! Missing flandersqmd.reportnr !!!",
+    "crumbs": [
+      "Cover",
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Title Appendix A</span>"
+    ]
+  }
+]
